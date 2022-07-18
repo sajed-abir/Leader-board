@@ -1,0 +1,12 @@
+* {
+    background-color: blueviolet;
+}
+
+.logo ul {
+    display: flex;
+}
+
+.logo img {
+    width: 40.42px;''
+    height: 51px;
+}
