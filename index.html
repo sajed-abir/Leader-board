@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Leader Board</title>
   </head>
   <body>
-    <!-- navbar start -->
+    <!-- ----------navbar start---------- -->
     <header class="nav">
       <nav class="logo">
-        <ul>
+        <ul class="left">
           <li><img src="./images/icons/logo.png" alt="" /></li>
-          <li>Idea</li>
+          <li><h3>Idea</h3></li>
         </ul>
-        <ul class="menu">
+        <ul class="right">
           <li>Home</li>
           <li>About</li>
           <li>Works</li>
@@ -23,6 +29,76 @@
         </ul>
       </nav>
     </header>
-    <!-- navbar end -->
+    <!-- ----------navbar end---------- -->
+    <!-- main body start -->
+    <main>
+      <section class="container">
+        <h3>Top Players</h3>
+        <div class="top-players">
+          <div class="player">
+            <img src="./images/players/player-1.png" alt="" /><a href=""
+              >John Smith</a
+            >
+          </div>
+          <div class="player">
+            <img src="./images/players/player-2.png" alt="" /><a href=""
+              >Pro Rasel</a
+            >
+          </div>
+          <div class="player">
+            <img src="./images/players/player-3.png" alt="" /><a href=""
+              >Abu Sufian</a
+            >
+          </div>
+          <div class="player">
+            <img src="./images/players/player-4.png" alt="" /><a href=""
+              >Shajedul Karim</a
+            >
+          </div>
+          <div class="player">
+            <img src="./images/players/player-5.png" alt="" /><a href=""
+              >Maruf Ahmed</a
+            >
+          </div>
+          <div class="player">
+            <img src="./images/players/player-6.png" alt="" /><a href=""
+              >Mujahid</a
+            >
+          </div>
+        </div>
+        <hr />
+
+        <article class="top-blog">
+          <div class="blog">
+            <img src="./images/blogs/blog-1.png" alt="" />
+            <div>
+              <p>13 of My Favorite UI/UX Goodies</p>
+              <p>by <a href="">Danny Sapio</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <img src="./images/blogs/blog-2.png" alt="" />
+            <div>
+              <p>UI cheat sheet: list vs grids</p>
+              <p>by <a href="">Danny Sapio</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <img src="./images/blogs/blog-3.png" alt="" />
+            <div>
+              <p>7 typography tips for interface design</p>
+              <p>by <a href="">Danny Sapio</a></p>
+            </div>
+          </div>
+          <div class="blog">
+            <img src="./images/blogs/blog-4.png" alt="" />
+            <div>
+              <p>Your logo is copied</p>
+              <p>by <a href="">Danny Sapio</a></p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
