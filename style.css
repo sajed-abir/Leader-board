@@ -69,14 +69,16 @@ main {
     justify-content: center;
     background-color: #F3F1FF;
     padding-top: 36px;
+    flex-direction: column;
 }
 
-.container {
+.container1 {
     width: 870px;
     background-color: #FFFFFF;
+    border-radius: 5px;
 }
 
-.container h3 {
+.container1 h3 {
     padding-top: 33px;
     padding-bottom: 40px;
     padding-left: 33px;
@@ -113,10 +115,13 @@ hr {
 
 /* ---------top players end---------- */
 
-/* top blog srat */
+/* ---------top blog srat---------- */
 .top-blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 34px;
+    padding-left: 30px;
+    padding-bottom: 34px;
 }
 
 .blog img {
@@ -127,4 +132,41 @@ hr {
 .blog {
     display: flex;
     align-items: center;
+}
+
+p {
+    padding-left: 16px;
+}
+
+/* ---------top blog srat---------- */
+.container2 {
+    width: 870px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    width: 252px;
+    height: 270px;
+    border: 1px solid black;
+}
+
+.card img {
+    width: 224px;
+    height: 104px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.card p {
+    display: flex;
 }
